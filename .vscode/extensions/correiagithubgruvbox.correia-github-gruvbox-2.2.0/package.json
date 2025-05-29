@@ -1,0 +1,47 @@
+{
+	"name": "correia-github-gruvbox",
+	"displayName": "Correia Github Gruvbox",
+	"description": "Github+Gruvbox Theme",
+	"publisher": "CorreiaGitHubGruvbox",
+	"version": "2.2.0",
+	"icon": "images/logo_correia.png",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Correia",
+		"Github",
+		"Gruvbox"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lucianocorreia/vscode-theme-github-gruvbox"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Correia Github+Gruvbox Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Github+Gruvbox Theme-color-theme.json"
+			},
+			{
+				"label": "Correia Github+EverForest Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Github+Everforst Theme-color-theme.json"
+			},
+			{
+				"label": "Correia Gruvbox Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Gruvbox Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1744867101232,
+		"targetPlatform": "undefined",
+		"size": 285026
+	}
+}
