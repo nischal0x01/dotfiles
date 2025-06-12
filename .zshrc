@@ -129,6 +129,6 @@ export NODE_OPTIONS=--openssl-legacy-provider
 export PATH=$PATH:/path/to/pocketbase
 export PATH="/usr/local/mysql/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
-export TMUX_CONF=~/.config/tmux/tmux.conf
+export TMUX_CONF=~/.config/tmux/.tmux.conf
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
